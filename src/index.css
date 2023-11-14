@@ -1,0 +1,93 @@
+body{
+    background-color: #4d6160;
+    text-align: center;
+    margin: auto;
+    font-family: math;
+
+}
+.title{
+    padding: 10px;
+    display: inline-flex;
+    color:  #fdfac7;
+    font-size: 40px;
+
+}
+.logo{
+    height: 70px;
+    margin: auto;
+    padding: 10px;
+}
+.rate-list{
+    color: white;
+    background-color: #a39081;
+}
+.home-web{
+    display: block;
+    padding: 10px;
+}
+.button{
+    font-size: 20px;
+    border: 1px solid;
+    padding: 10px;
+    background: none;
+    cursor: pointer;
+    color: white;
+    border-radius: 5%;
+    margin: 10px;
+}
+.button:hover{
+    background-color:  #a39081;
+    color: white;
+}
+.confirm:hover{
+    background-color: #bac9a9;
+}
+.back:hover{
+    background-color: #c84648;
+}
+.hidden{
+    display: none;
+}
+.confirm{
+    font-size: 15px;
+}
+.back{
+    font-size: 15px;
+}
+.rate-list-results{
+    color: white;
+    border-radius: 1%;
+    border: 1px solid beige;
+    background-color: #a39081;
+    margin: auto;
+    width: 1000px;
+    font-size: 20px;
+}
+.conversor{
+    color: white;
+    background-color: #a39081;
+}
+.select{
+    padding: 5px;
+    border-radius: 1%;
+    border: none;
+    font-size: 15px;
+    text-align: center;
+}
+.input{
+    width: 10%;
+    padding: 6px;
+}
+.error{
+    border: 3px solid red;
+}
+.text-error{
+    font-size: 20px;
+    color: red;
+}
+.clear{
+    font-size: 15px;
+}
+.clear:hover{
+    background-color: grey;
+}

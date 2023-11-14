@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "cypress:open": "cypress open",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.23.2",
+    "@babel/preset-env": "^7.23.2",
+    "babel-jest": "^29.7.0",
+    "cypress": "^13.4.0",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0"
+  }
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Exchange Rate Web</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='./src/index.css'>
+    <link rel="shortcut icon" href="./src/img/logo.png" />
+
+</head>
+
+<body>
+
+    <div class="title" >
+        <h1 id="title">Exchange Rate Web</h1>
+        <img id="logo" class="logo" src="./src/img/logo.png">
+    </div>
+    <br>
+
+    <div class="home-web" id="home-web">
+
+        <div id="home-buttons">
+            <button class="button" id="rate-button">Rate List</button>
+            <button class="button" id="conversor-button">Conversor</button>
+        </div>
+    
+        <br>
+        <br>
+
+        <div class="rate-list hidden" id="rate-list">
+            <label>Choose base: </label>
+            <select class="select" id="currencies"> </select>
+
+            <label>Date: </label>
+            <input id="rate-date" class="select" type="date"/>
+
+            <button class="button confirm" id="confirm-rate-button">Confirm</button>
+            <button class="button back" id="back-rate-button">Back</button>
+          
+            
+        
+
+        
+        </div>
+
+        <br>
+
+        <div class="rate-list-results hidden" id="rate-list-results">
+
+        </div>
+
+        <div id="rate-error"></div>
+            <strong id="text-error" class="text-error hidden">¡ERROR! Date must be since January 1, 1999 to actual date</strong>
+        </div>
+
+        <div class="conversor hidden" id="conversor">
+            <br>
+            <label for="from">From:</label>
+            <select id="selected-from" class="select"> </select>
+            <input class="select input" id="from" type="number">
+
+            <label for="selected-to">To:</label>
+            <select id="selected-to" class="select"> </select>
+
+            <div>
+                <button class="button confirm" id="confirm-conversor-button">Confirm</button>
+                <button class="button clear" id="clear-button">Clear</button>
+                <button class="button back" id="back-conversor-button">Back</button>
+
+
+            </div>
+           
+        </div>
+        <br>
+        <div class="conversor hidden"  id="conversor-result">
+            <strong class="conversion" id="conversion">123123</strong>
+        </div>
+        <div id="conversion-error"></div>
+            <strong id="conversor-error" class="text-error hidden">¡ERROR! Value must be higher than 0</strong>
+        </div>
+    </div>
+    
+
+</body>
+
+<script type="module" src="./src/index.js"></script>
+
+</html>
